@@ -1,0 +1,138 @@
+.migration-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .migration-controls {
+    margin-bottom: 30px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button-group button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .button-group button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .data-summary {
+    margin-bottom: 30px;
+  }
+  
+  .summary-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .summary-card {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-preview {
+    margin-bottom: 30px;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .tab-button {
+    padding: 10px 15px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tab-button.active {
+    background-color: #ddd;
+  }
+  
+  .preview-container {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .preview-table {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .logs-container {
+    margin-top: 30px;
+  }
+  
+  .logs {
+    height: 300px;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+  }
+  
+  .log-entry {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  .log-entry.info {
+    background-color: #e8f4fd;
+  }
+  
+  .log-entry.success {
+    background-color: #e6ffe6;
+  }
+  
+  .log-entry.error {
+    background-color: #ffe6e6;
+  }
+  
+  .timestamp {
+    color: #666;
+    margin-right: 10px;
+  }
+  
