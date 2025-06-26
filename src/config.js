@@ -16,17 +16,17 @@ export const sourceConfig = {
   
   export const targetConfig = {
     aws_project_region: 'us-east-1',
-    aws_appsync_graphqlEndpoint: 'https://ols3xe2mijaxxjnnfw4ljj5ava.appsync-api.us-east-1.amazonaws.com/graphql',
+    aws_appsync_graphqlEndpoint: 'https://tzuyym2jmjehtaesbseawlpe4i.appsync-api.us-east-1.amazonaws.com/graphql',
     aws_appsync_region: 'us-east-1',
     aws_appsync_authenticationType: 'AMAZON_COGNITO_USER_POOLS',
     aws_cognito_identity_pool_id: '',
     aws_cognito_region: 'us-east-1',
-    aws_user_pools_id: 'us-east-1_bQMOu81V8',
-    aws_user_pools_web_client_id: '328l2fttuvtr04kom9cbhhjh92',
+    aws_user_pools_id: 'us-east-1_yMI8mp0oH',
+    aws_user_pools_web_client_id: '84l1f3ri1v8dh3vmd0pbu06jn',
     Auth: {
       region: 'us-east-1',
-      userPoolId: 'us-east-1_bQMOu81V8',
-      userPoolWebClientId: '328l2fttuvtr04kom9cbhhjh92'
+      userPoolId: 'us-east-1_yMI8mp0oH',
+      userPoolWebClientId: '84l1f3ri1v8dh3vmd0pbu06jn'
     }
   };
   
